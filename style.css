@@ -1,0 +1,37 @@
+.header {
+	display: flex;
+
+}
+.logo {
+	margin-left: 149px;
+}
+.nav {
+	display: flex;
+}
+.active {
+	color: #2F195F;
+	font-size: 25px;
+	font-family: 'Myanmar Text', serif;
+	margin-top: 32px;
+}
+.nav-a {
+	margin-left: 22px;
+	color: #80D39B;
+	font-size: 25px;
+	margin-top: 32px;
+	font-family: 'Myanmar Text', serif;
+}
+.section {
+	background-image: url('img/hollywood.jpg');
+	width: 1110px;
+	height: 616.39px;
+	margin-left: 128px;
+}
+.text1 {
+	padding-top: 60px;
+	padding-left: 22px;
+	font-size: 105px;
+	font-weight: 700;
+	color: #FFF8FF;
+	font-family: 'Myanmar Text', serif;
+}
