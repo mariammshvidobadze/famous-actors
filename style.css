@@ -1,6 +1,5 @@
 .header {
 	display: flex;
-
 }
 .logo {
 	margin-left: 149px;
@@ -34,4 +33,73 @@
 	font-weight: 700;
 	color: #FFF8FF;
 	font-family: 'Myanmar Text', serif;
+}
+.wraper-box {
+	display: flex;
+	margin-left: 129px;
+	margin-right: 112px;
+	justify-content: space-between;
+}
+.img {
+	width: 262px;
+	height: 370px;
+}
+.section1 {
+	background-color: #FAA6FF;
+}
+.section2 {
+	background-color: #B5FFE9;
+}
+.title {
+	font-size: 67px;
+	font-weight: 700;
+	font-family: 'Myanmar Text', serif;
+	margin-left: 129px;
+	padding-top: 28px;
+}
+.name {
+	font-size: 32px;
+	font-weight: 400;
+	font-family: 'Myanmar Text', serif;
+	padding-top: 22px;
+}
+.wraper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.footer {
+	background-color: #282429;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-left: 129px;
+	padding-right: 112px;
+	padding-top: 34px;
+	padding-bottom: 23px;
+}
+.text2 {
+	color: #FFF8FF;
+	font-size: 34px;
+	font-family: 'Myanmar Text', serif;
+}
+.fa-facebook {
+	color: #FFF8FF;
+	font-size: 28.04px;
+}
+.fa-twitter {
+	color: #FFF8FF;
+	font-size: 28.04px;
+}
+.fa-youtube {
+	color: #FFF8FF;
+	font-size: 28.04px;
+}
+.fa-instagram {
+	color: #FFF8FF;
+	font-size: 28.04px;
+}
+.fa-pinterest-p {
+	color: #FFF8FF;
+	font-size: 28.04px;
 }
