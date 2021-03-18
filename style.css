@@ -1,30 +1,32 @@
 .header {
 	display: flex;
-}
-.logo {
-	margin-left: 149px;
+	justify-content: space-between;
+	margin: auto;
+	width: 80%;
+	align-items: center;
 }
 .nav {
+	flex-wrap: wrap;
+	width: 546px;
 	display: flex;
+	justify-content: space-between;
 }
 .active {
 	color: #2F195F;
 	font-size: 25px;
 	font-family: 'Myanmar Text', serif;
-	margin-top: 32px;
 }
 .nav-a {
-	margin-left: 22px;
 	color: #80D39B;
 	font-size: 25px;
-	margin-top: 32px;
 	font-family: 'Myanmar Text', serif;
 }
 .section {
 	background-image: url('img/hollywood.jpg');
-	width: 1110px;
+	background-repeat: no-repeat;
+	width: 80%;
 	height: 616.39px;
-	margin-left: 128px;
+	margin: auto;
 }
 .text1 {
 	padding-top: 60px;
@@ -35,6 +37,7 @@
 	font-family: 'Myanmar Text', serif;
 }
 .wraper-box {
+	flex-wrap: wrap;
 	display: flex;
 	margin-left: 129px;
 	margin-right: 112px;
@@ -102,4 +105,42 @@
 .fa-pinterest-p {
 	color: #FFF8FF;
 	font-size: 28.04px;
+}
+.text3 {
+	font-size: 13px;
+	padding-left: 22px;
+	font-weight: 400;
+	color: #FFF8FF;
+	font-family: 'Myanmar Text', serif;
+}
+.info {
+	width: 262px;
+	height: 370px;
+	background-color: #000000;
+	color: #FFF8FF;
+	position: absolute;
+	text-transform: capitalize;
+	z-index: 2;
+	opacity: 0%;
+	font-size: 20px;
+	font-family: 'Myanmar Text', serif;
+}
+.info:hover {
+	opacity: 60%;
+}
+.search {
+	width: 238px;
+	height: 34px;
+	background-color: #E9E8E9;
+	border-color: #FFFFFF;
+}
+::placeholder {
+	color: #7353BA;
+	font-family: 'Myanmar Text', serif;
+	font-weight: 400;
+}
+.fa-search {
+	width: 30px;
+	height: 30px;
+	color: #7353BA;
 }
