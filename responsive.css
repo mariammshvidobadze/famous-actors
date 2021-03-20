@@ -40,9 +40,53 @@
 		padding-left: 82px;
 	}
 	.box {
+		display: none;
+	}
+	.box-1 {
+		display: block;
 		left: 0px;
 	}
+	.category-1 {
+		display: block;
+	}
 }
-@media (max-width: 760px) {
-
+@media (max-width: 780px) {
+	.wraper {
+		margin: auto;
+	}
+	.text2 {
+		display: none;
+	}
+}
+@media (max-width: 650px) {
+	.text1 {
+		display: none;
+	}
+	.text3 {
+		display: none;
+	}
+	.email {
+		width: 302px;
+	}
+	.password {
+		width: 302px;
+	}
+	.form {
+		width: 302px;
+	}
+	.section3 {
+		display: block;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		flex-direction: column;
+		background-color: #7353BA;
+	}
+	.section1 {
+		display: none;
+	}
+	.section2 {
+		display: none;
+	}
 }
