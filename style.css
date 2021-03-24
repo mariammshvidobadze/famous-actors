@@ -1,6 +1,6 @@
 .header {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	margin: auto;
 	width: 80%;
 	align-items: center;
@@ -75,9 +75,8 @@
 	background-color: #282429;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
-	padding-left: 129px;
-	padding-right: 112px;
+	justify-content: space-around;
+	padding: 0 auto;
 	padding-top: 23px;
 	height: 73px;
 }
@@ -269,14 +268,9 @@ span {
 }
 .section3 {
 	display: none;
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: space-between;
-	flex-direction: column;
-	background-color: #7353BA;
 }
 .title1 {
+	display: none;
 	color: #B5FFE9;
 	font-family: 'Myanmar Text', serif;
 	font-weight: 700;
@@ -284,6 +278,7 @@ span {
 	margin-top: 10px;
 }
 .name1 {
+	display: none;
 	font-family: 'Sitka Sisplay', serif;
 	color: #FFF8FF;
 	font-weight: 400;
@@ -291,6 +286,7 @@ span {
 	margin-top: 19px;
 }
 .info1 {
+	display: none;
 	font-family: 'Sitka Sisplay', serif;
 	color: #FFF8FF;
 	font-weight: 400;
@@ -298,6 +294,7 @@ span {
 	width: 284px;
 }
 .read-more {
+	display: none;
 	font-family: 'Sitka Sisplay', serif;
 	color: #B5FFE9;
 	font-weight: 400;
@@ -305,14 +302,9 @@ span {
 }
 .section4 {
 	display: none;
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: space-between;
-	flex-direction: column;
-	background-color: #FAA6FF;
 }
 .title2 {
+	display: none;
 	color: #000000;
 	font-family: 'Myanmar Text', serif;
 	font-weight: 700;
@@ -320,6 +312,7 @@ span {
 	margin-top: 10px;
 }
 .name2 {
+	display: none;
 	font-family: 'Sitka Sisplay', serif;
 	color: #000000;
 	font-weight: 400;
@@ -327,6 +320,7 @@ span {
 	margin-top: 19px;
 }
 .info2 {
+	display: none;
 	font-family: 'Sitka Sisplay', serif;
 	color: #000000;
 	font-weight: 400;
@@ -334,8 +328,24 @@ span {
 	width: 284px;
 }
 .read-more1 {
+	display: none;
 	font-family: 'Sitka Sisplay', serif;
 	color: #000000;
 	font-weight: 400;
 	font-size: 16px;
+}
+.img1 {
+	display: none;
+	width: 262px;
+	height: 370px;
+}
+.section-wraper {
+	background-color: #80D39B;
+}
+.title5 {
+	font-size: 67px;
+	font-weight: 700;
+	font-family: 'Myanmar Text', serif;
+	margin-left: 129px;
+	padding-top: 28px;
 }
